@@ -39,8 +39,16 @@ int _atoi(char *s);
  *    * Return:Void.
  *     */
 
-void reset_to_98(int *n)
 {
-		*n = 98;
+    int n, *ptr_n;
+    ptr_n = &n;
+    n = 402;
+    printf("n=%d\n", n);
+      int reset_to_98(void);
+    {
+       *ptr_n = 98;
+    }
+    printf("n=%d\n", n);
+    return (0);
 }
 
