@@ -1,1 +1,1 @@
-0x00. C - Hello, World, c programming
+This is our readme file content for c programming
